@@ -1,0 +1,19 @@
+button{
+    max-width: 200px;
+    width: 100%;
+    min-height: 35px;
+    height: 100%;
+    font-size: 20px;
+    background: repeating-radial-gradient(burlywood,rgb(138, 93, 35));
+    border: none;
+    border-radius: 7px;
+    box-shadow: 5px 5px 10px #c2c2c2;
+    perspective: 2000px;
+    transition: 0.3s;
+    &:active{
+        transform: scale(0.9);
+    }
+}
+p{
+    font-size: 1.5rem;
+}
